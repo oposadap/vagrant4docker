@@ -1,4 +1,4 @@
-Vagrant.configure("2") do |config|
+﻿Vagrant.configure("2") do |config|
   
   config.vm.box = "ubuntu/bionic64"
 
@@ -9,11 +9,11 @@ Vagrant.configure("2") do |config|
   ##
 
 
-  config.disksize.size = '15GB'
+  config.disksize.size = '10GB'
 
   config.vm.provider "virtualbox" do |v|
-    v.memory = 12248
-    v.cpus = 4    
+     v.memory = 3072
+     v.cpus = 2    
   end
   
   ##
